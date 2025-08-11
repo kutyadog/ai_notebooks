@@ -29,7 +29,7 @@ A production-ready HR chatbot built for The Washington Post's internal HR portal
 - Includes a web-based interface using Gradio
 
 ### 🌉 Base Model Chat Bridge
-**2025-04_BaseModel-Chat-Bridge.ipynb**  
+**[2025-04_BaseModel-Chat-Bridge.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/showcase/2025-04_BaseModel-Chat-Bridge.ipynb)**  
 Proof-of-concept for bridging base models with chat interactions using an instruct model as an "interpreter" to reformat user questions for specialized base models. Demonstrates how to enable conversational use of non-chat-optimized models like Cisco's Foundation-Sec-8B.
 
 **Key Features:**
