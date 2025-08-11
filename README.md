@@ -28,15 +28,17 @@ A production-ready HR chatbot built for The Washington Post's internal HR portal
 - Implements confidence thresholding to ensure accurate responses
 - Includes a web-based interface using Gradio
 
-### 🛡️ Cybersecurity AI Assistant
-**2024-01_Security_AI_Chatbot.ipynb**  
-Specialized AI assistant for cybersecurity scenarios using Cisco's Foundation-Sec-8B model. Provides expert-level insights on vulnerabilities, exploits, and security best practices.
+### 🌉 Base Model Chat Bridge
+**2025-04_BaseModel-Chat-Bridge.ipynb**  
+Proof-of-concept for bridging base models with chat interactions using an instruct model as an "interpreter" to reformat user questions for specialized base models. Demonstrates how to enable conversational use of non-chat-optimized models like Cisco's Foundation-Sec-8B.
 
 **Key Features:**
-- Specialized cybersecurity model integration
-- CVE/CWE knowledge base
-- Multi-model architecture (specialized + general purpose)
-- Interactive chat interface
+- Base-to-instruct model architecture
+- Multi-model conversation flow
+- Interactive Gradio interface
+- Confidence scoring system
+- Performance metrics analysis
+diff>
 
 ### 🤖 Multi-Agent RAG System
 **2024-01_AgentChatGroupChatRAG.ipynb**  
@@ -75,7 +77,8 @@ Step-by-step implementation guide for building a Retrieval-Augmented Generation 
 ### Conversational AI & Chatbots
 - **2023-03_HR_RAG_Chatbot_polished.ipynb** - HR-focused chatbot with RAG
 - **2024-01_AgentChatGroupChatRAG.ipynb** - Multi-agent group chat system
-- **2024-01_Security_AI_Chatbot.ipynb** - Cybersecurity specialist chatbot
+- **2025-04_BaseModel-Chat-Bridge.ipynb** - Base model to chat interface bridge
+diff>
 - **2023-10_ChatbotSimpleRAG.ipynb** - Lightweight RAG chatbot prototype
 - **2023-07_LangChainChatGPT.ipynb** - Early LangChain integration experiments
 
@@ -145,7 +148,7 @@ Retired or duplicate notebooks:
 ## Timeline
 
 - **August 2025**: Current portfolio organization
-- **January 2024**: Security AI Chatbot, Multi-Agent RAG System
+- **April 2025**: Base Model Chat Bridge, Multi-Agent RAG System
 - **December 2023**: SEO Analysis Tool development
 - **March 2023**: Initial HR Chatbot implementation
 
@@ -175,7 +178,7 @@ Retired or duplicate notebooks:
    export OPENAI_API_KEY="your_openai_key"
    export OPENAI_ORG="your_org_id"
    
-   # For Security AI Chatbot
+   # For Cybersecurity AI Assistant
    export GROQ_API_KEY="your_groq_key"
    
    # For SEO Analysis Tool
@@ -192,7 +195,7 @@ Retired or duplicate notebooks:
 
 ### Project-Specific Setup
 - **HR Chatbot**: Requires formatted_articles.csv (HR content)
-- **Security Chatbot**: Requires internet connection for model downloads
+- **Base Model Chat Bridge**: Requires internet connection for model downloads
 - **SEO Analysis**: Requires VPN access to internal Washington Post APIs
 - **RAG Basics**: No additional setup required - self-contained example
 
@@ -213,13 +216,13 @@ Retired or duplicate notebooks:
 ## Project Organization Notes
 
 ### Duplicate Projects Identified
-- **SecurityHundley & Cybersecurity**: Both appear to be the same cybersecurity project. The polished version (2024-01_Security_AI_Chatbot.ipynb) is recommended for showcase.
+- **SecurityHundley & Cybersecurity**: Both appear to be the same cybersecurity project. The polished version (2025-04_BaseModel-Chat-Bridge.ipynb) is recommended for showcase.
 - **HR Chatbot Variants**: Multiple versions exist (2023-03_HR_RAG_Chatbot.ipynb, 2023-03_HR_RAG_Chatbot_polished.ipynb). The polished version is recommended.
 
 ### Recommended Showcase Focus
 For potential employers, focus on these key projects:
 1. **HR Assistant with RAG** - Demonstrates practical business application
-2. **Security AI Chatbot** - Shows specialized domain knowledge
+2. **Base Model Chat Bridge** - Shows innovative model architecture techniques
 3. **Multi-Agent RAG System** - Advanced AI architecture skills
 4. **SEO Analysis Tool** - Complete product development cycle
 5. **RAG Basics** - Educational value and clear explanations
