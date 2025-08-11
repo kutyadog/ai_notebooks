@@ -1,6 +1,7 @@
 # AI Notebooks Portfolio
 
-This repository showcases a curated selection of AI projects and experiments developed between March 2023 and August 2025.  
+This repository showcases a curated selection of AI projects and experiments developed since March 2023. 
+I am in the process of cleaning these up and posting them (Aug 2025). Please check back for more.
 It's organized into three sections:
 
 1. **Showcase** – polished, production-ready notebooks demonstrating key skills  
@@ -10,23 +11,6 @@ It's organized into three sections:
 ---
 
 ## Featured Projects
-
-### 🏆 HR Assistant with RAG
-**2023-03_HR_RAG_Chatbot_polished.ipynb**  
-A production-ready HR chatbot built for The Washington Post's internal HR portal. Uses Retrieval-Augmented Generation with OpenAI's GPT-4 to answer employee questions about benefits, policies, and procedures. Handles 2300+ HR articles with vector embeddings for accurate information retrieval.
-
-**Key Features:**
-- Semantic search using embeddings
-- Confidence scoring to prevent hallucinations
-- Interactive Gradio interface
-- Source attribution for transparency
-- Handles 2300+ HR articles with efficient vector embeddings
-
-**Technical Highlights:**
-- Uses OpenAI's text-embedding-ada-002 for document embeddings
-- Employs cosine similarity for semantic search
-- Implements confidence thresholding to ensure accurate responses
-- Includes a web-based interface using Gradio
 
 ### 🌉 Base Model Chat Bridge
 **[2025-04_BaseModel-Chat-Bridge.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/showcase/2025-04_BaseModel-Chat-Bridge.ipynb)**  
@@ -40,40 +24,11 @@ Proof-of-concept for bridging base models with chat interactions using an instru
 - Performance metrics analysis
 diff>
 
-### 🤖 Multi-Agent RAG System
-**2024-01_AgentChatGroupChatRAG.ipynb**  
-Advanced multi-agent system using Microsoft AutoGen framework with Retrieval-Augmented Generation capabilities. Demonstrates complex task delegation and coordination between specialized AI agents.
-
-**Key Features:**
-- Multiple specialized agents with distinct roles
-- RAG integration for knowledge retrieval
-- Dynamic task assignment and coordination
-- Wikipedia and custom tool integration
-
-### 🔍 AI-Powered SEO Analysis
-**2023-12_AI_SEO_POC.ipynb**  
-Comprehensive SEO analysis tool that evaluates content optimization, suggests improvements, and provides actionable insights for better search engine rankings.
-
-**Key Features:**
-- Automated SEO scoring (headline, meta tags, content)
-- AI-powered content optimization suggestions
-- Google Trends integration for keyword research
-- Interactive dashboard with detailed recommendations
-
-### 📚 RAG Basics Tutorial
-**2024-08_AiRAGBasics.ipynb**  
-Step-by-step implementation guide for building a Retrieval-Augmented Generation system from scratch. Perfect for understanding the fundamentals of RAG architecture.
-
-**Key Features:**
-- Clear, commented implementation
-- Embedding generation and storage
-- Semantic search functionality
-- Complete end-to-end pipeline
 
 ---
 
 ## All Showcase Projects
-
+Note: Not all of these are edited/cleaned up yet. In process of editing them now (Aug 2025).
 ### Conversational AI & Chatbots
 - **2023-03_HR_RAG_Chatbot_polished.ipynb** - HR-focused chatbot with RAG
 - **2024-01_AgentChatGroupChatRAG.ipynb** - Multi-agent group chat system
@@ -98,6 +53,7 @@ diff>
 ## Experiments
 
 A collection of exploratory notebooks testing various AI/ML techniques:
+Note: Not all of these are my code... (should be obvious or credited).
 
 ### Fine-tuning Projects
 - **Fine_Tune_DeepSeek_R1_custom_data_test.ipynb** - Custom data fine-tuning
