@@ -13,7 +13,7 @@ It's organized into three sections:
 ## Featured Projects
 
 ### 🌉 Base Model Chat Bridge
-**[2025-04_BaseModel-Chat-Bridge.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/showcase/2025-04_BaseModel-Chat-Bridge.ipynb)**  
+**[2025-04_HybridModelChatBridge.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/showcase/2025-04_HybridModelChatBridge.ipynb)**  
 Proof-of-concept for attempting to use an instruct model as a 'bridge' or 'interpreter' between base model and user by reformating user questions for specialized base models.
 
 **Key Features:**
@@ -32,7 +32,7 @@ Note: Not all of these are edited/cleaned up yet. In process of editing them now
 ### Conversational AI & Chatbots
 - **2023-03_HR_RAG_Chatbot_polished.ipynb** - HR-focused chatbot with RAG
 - **2024-01_AgentChatGroupChatRAG.ipynb** - Multi-agent group chat system
-- **2025-04_BaseModel-Chat-Bridge.ipynb** - Base model to chat interface bridge
+- **2025-04_HybridModelChatBridge.ipynb** - Base model to chat interface bridge
 diff>
 - **2023-10_ChatbotSimpleRAG.ipynb** - Lightweight RAG chatbot prototype
 - **2023-07_LangChainChatGPT.ipynb** - Early LangChain integration experiments
@@ -172,7 +172,7 @@ Retired or duplicate notebooks:
 ## Project Organization Notes
 
 ### Duplicate Projects Identified
-- **SecurityHundley & Cybersecurity**: Both appear to be the same cybersecurity project. The polished version (2025-04_BaseModel-Chat-Bridge.ipynb) is recommended for showcase.
+- **SecurityHundley & Cybersecurity**: Both appear to be the same cybersecurity project. The polished version () is recommended for showcase.
 - **HR Chatbot Variants**: Multiple versions exist (2023-03_HR_RAG_Chatbot.ipynb, 2023-03_HR_RAG_Chatbot_polished.ipynb). The polished version is recommended.
 
 ### Recommended Showcase Focus
