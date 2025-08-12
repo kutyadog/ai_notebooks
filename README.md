@@ -1,12 +1,11 @@
-# AI Notebooks Portfolio
+# AI Notebooks of Interest
 
-This repository showcases a curated selection of AI projects and experiments developed since March 2023. 
-I am in the process of cleaning these up and posting them (Aug 2025). Please check back for more.
-It's organized into three sections:
+This repository showcases a curated selection of AI projects and experiments I have developed & worked with since March 2023. 
+I am actively (Aug 2025) in the process of editing these. Please check back again for changes.
 
-1. **Showcase** – polished, production-ready notebooks demonstrating key skills  
-2. **Experiments** – exploratory code and prototype work  
-3. **Archive** – retired or hidden notebooks
+1. **Featured Projects** – AI projects I have built.
+2. **Experiments** – exploratory code and prototype work
+3. **Reference** – Projects that I am watching / testing
 
 ---
 
@@ -24,18 +23,22 @@ Proof-of-concept for attempting to use an instruct model as a 'bridge' or 'inter
 - Performance metrics analysis
 diff>
 
-
 ---
 
-## All Showcase Projects
+## Experiments
+
+A collection of exploratory notebooks testing various AI/ML techniques:
+Note: Not all of these are my code... (should be obvious or credited).
 Note: Not all of these are edited/cleaned up yet. In process of editing them now (Aug 2025).
+
 ### Conversational AI & Chatbots
 - **2023-03_HR_RAG_Chatbot_polished.ipynb** - HR-focused chatbot with RAG
 - **2024-01_AgentChatGroupChatRAG.ipynb** - Multi-agent group chat system
-- **2025-04_HybridModelChatBridge.ipynb** - Base model to chat interface bridge
+- **2025-04_HybridModelChatBridge.ipynb** - Hybrid Model Architecture - Base model to chat interface bridge
 diff>
 - **2023-10_ChatbotSimpleRAG.ipynb** - Lightweight RAG chatbot prototype
 - **2023-07_LangChainChatGPT.ipynb** - Early LangChain integration experiments
+- **2023-08_CampingRawExploration.ipynb** - Generative AI exploration
 
 ### RAG & Document Processing
 - **2024-08_AiRAGBasics.ipynb** - Step-by-step RAG implementation tutorial
@@ -44,16 +47,6 @@ diff>
 ### SEO & Content Analysis
 - **2023-12_AI_SEO_POC.ipynb** - AI-driven SEO analysis tool
 - **2023-12_AI_SEO_Tests.ipynb** - SEO optimization experiments
-
-### Exploratory Projects
-- **2023-08_CampingRawExploration.ipynb** - Generative AI exploration
-
----
-
-## Experiments
-
-A collection of exploratory notebooks testing various AI/ML techniques:
-Note: Not all of these are my code... (should be obvious or credited).
 
 ### Fine-tuning Projects
 - **Fine_Tune_DeepSeek_R1_custom_data_test.ipynb** - Custom data fine-tuning
@@ -110,78 +103,23 @@ Retired or duplicate notebooks:
 
 ---
 
-## Setup & Running
+## Reference
 
-### Prerequisites
-- Python 3.8+
-- Jupyter Notebook or JupyterLab
-- API keys for various services (OpenAI, Groq, etc.)
+- **Structured Input/Output**: 
+   -  [Outlines](https://github.com/dottxt-ai/outlines) : Outlines guarantees structured outputs during generation — directly from any LLM.
 
-### Installation
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   ```
-
-2. Install dependencies:  
-   ```bash
-   pip install jupyterlab openai langchain numpy pandas scikit-learn matplotlib gradio transformers torch pinecone-client tiktoken datasets
-   ```
-
-3. Set your API keys as environment variables:  
-   ```bash
-   # Required for most projects
-   export OPENAI_API_KEY="your_openai_key"
-   export OPENAI_ORG="your_org_id"
+- **Chat Frameworks**: 
+   -  [HayStack](https://github.com/deepset-ai/haystack) : AI orchestration framework with advanced retrieval methods; it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
    
-   # For Cybersecurity AI Assistant
-   export GROQ_API_KEY="your_groq_key"
    
-   # For SEO Analysis Tool
-   export GOOGLE_API_KEY="your_google_key"
-   export WAPO_PRISM_KEY="your_wapo_key"
-   ```
-
-4. Launch Jupyter lab or notebook:  
-   ```bash
-   jupyter lab
-   ```
-
-5. Navigate to the `showcase/` or `experiments/` folder and open any notebook.
-
-### Project-Specific Setup
-- **HR Chatbot**: Requires formatted_articles.csv (HR content)
-- **Base Model Chat Bridge**: Requires internet connection for model downloads
-- **SEO Analysis**: Requires VPN access to internal Washington Post APIs
-- **RAG Basics**: No additional setup required - self-contained example
-
----
-
-## Skills Demonstrated
-
-- **Natural Language Processing**: RAG, embeddings, chatbot development
-- **Machine Learning**: Fine-tuning, model evaluation, prompt engineering
-- **Multi-Agent Systems**: Agent coordination, task delegation
-- **API Integration**: OpenAI, Groq, Google APIs, custom services
-- **UI/UX Development**: Gradio interfaces, interactive dashboards
-- **Data Processing**: Text analysis, vector databases, content extraction
-- **SEO Optimization**: Content analysis, keyword research, ranking factors
 
 ---
 
 ## Project Organization Notes
 
 ### Duplicate Projects Identified
-- **SecurityHundley & Cybersecurity**: Both appear to be the same cybersecurity project. The polished version () is recommended for showcase.
+- **SecurityHundley & Cybersecurity**: Same project. The polished version () is recommended for showcase.
 - **HR Chatbot Variants**: Multiple versions exist (2023-03_HR_RAG_Chatbot.ipynb, 2023-03_HR_RAG_Chatbot_polished.ipynb). The polished version is recommended.
-
-### Recommended Showcase Focus
-For potential employers, focus on these key projects:
-1. **HR Assistant with RAG** - Demonstrates practical business application
-2. **Base Model Chat Bridge** - Shows innovative model architecture techniques
-3. **Multi-Agent RAG System** - Advanced AI architecture skills
-4. **SEO Analysis Tool** - Complete product development cycle
-5. **RAG Basics** - Educational value and clear explanations
 
 ---
 
