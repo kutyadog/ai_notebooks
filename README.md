@@ -14,7 +14,7 @@ It's organized into three sections:
 
 ### 🌉 Base Model Chat Bridge
 **[2025-04_BaseModel-Chat-Bridge.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/showcase/2025-04_BaseModel-Chat-Bridge.ipynb)**  
-Proof-of-concept for bridging base models with chat interactions using an instruct model as an "interpreter" to reformat user questions for specialized base models. Demonstrates how to enable conversational use of non-chat-optimized models like Cisco's Foundation-Sec-8B.
+Proof-of-concept for attempting to use an instruct model as a 'bridge' or 'interpreter' between base model and user by reformating user questions for specialized base models.
 
 **Key Features:**
 - Base-to-instruct model architecture
