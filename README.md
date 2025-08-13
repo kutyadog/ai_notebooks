@@ -21,7 +21,11 @@ Proof-of-concept for attempting to use an instruct model as a 'bridge' or 'inter
 - Interactive Gradio interface
 - Confidence scoring system
 - Performance metrics analysis
-diff>
+
+
+### 🌉 Finetune Tiny LLM w/Custom Data
+**[Fine_tune_llm_custom_data.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/Fine_tune_llm_custom_data.ipynb)**  
+Testing out quality of retaining hard data & output of tiny model after finetuning custom data using LORA.
 
 ---
 
@@ -35,7 +39,6 @@ Note: Not all of these are edited/cleaned up yet. In process of editing them now
 - **2023-03_HR_RAG_Chatbot_polished.ipynb** - HR-focused chatbot with RAG
 - **2024-01_AgentChatGroupChatRAG.ipynb** - Multi-agent group chat system
 - **2025-04_HybridModelChatBridge.ipynb** - Hybrid Model Architecture - Base model to chat interface bridge
-diff>
 - **2023-10_ChatbotSimpleRAG.ipynb** - Lightweight RAG chatbot prototype
 - **2023-07_LangChainChatGPT.ipynb** - Early LangChain integration experiments
 - **2023-08_CampingRawExploration.ipynb** - Generative AI exploration
