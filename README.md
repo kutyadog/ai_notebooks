@@ -25,7 +25,14 @@ Proof-of-concept for attempting to use an instruct model as a 'bridge' or 'inter
 
 ### 🌉 Finetune Tiny LLM w/Custom Data
 **[Fine_tune_llm_custom_data.ipynb](https://github.com/kutyadog/ai_notebooks/blob/main/Fine_tune_llm_custom_data.ipynb)**  
-Testing out quality of retaining hard data & output of tiny model after finetuning custom data using LORA.
+This project is focused on fine-tuning a small open-source language model (Qwen/Qwen2.5-3B-Instruct) on custom data related to a super-hero that I quickly invented (I wanted something that I knew the model would have no prior knowledge of).
+
+**Key Features:**
+- Fine-tuning: The core process of adapting a pre-trained model to custom data.
+- LoRA (Low-Rank Adaptation): Utilized for efficient fine-tuning.
+- Custom Character Data: Fine-tuning on unique, invented character information.
+- Small Open-Source Model: Using a specific, publicly available model (Qwen/Qwen2.5-3B-Instruct).
+- Workflow: The project outlines a complete process from setup and data preparation to training, saving, and testing the fine-tuned model.
 
 ---
 
